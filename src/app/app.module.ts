@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { VideojuegosComponent } from "./videojuego/videojuegos.components";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideojuegosComponent
   ],
   imports: [
     BrowserModule
